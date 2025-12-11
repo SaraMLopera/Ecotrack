@@ -1,0 +1,36 @@
+.homeLayout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  font-family: "Segoe UI", sans-serif;
+  padding: 1rem;
+  position: relative; /* importante para posicionar el botón dentro */
+}
+
+.menuButton {
+  position: absolute; /* lo fijamos dentro del contenedor */
+  top: 1rem; /* separación desde arriba */
+  right: 1rem; /* separación desde la derecha */
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #065f46;
+}
+
+.homeContent {
+  flex: 1;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem; /* para que el contenido no se superponga al botón */
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
